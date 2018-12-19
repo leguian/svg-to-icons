@@ -1,0 +1,27 @@
+{
+  "name": "iconify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node convert-svg && node bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconify-design/iconify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iconify-design/iconify/issues"
+  },
+  "homepage": "https://github.com/iconify-design/iconify#readme",
+  "devDependencies": {
+    "@iconify/json": "^1.0.34",
+    "@iconify/json-tools": "^1.0.1"
+  },
+  "dependencies": {
+    "@iconify/tools": "^1.2.1",
+    "@mdi/svg": "^3.2.89"
+  }
+}
