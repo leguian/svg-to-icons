@@ -8,12 +8,13 @@ if (!collection.loadFromFile('testapicons.json')) {
     console.error('Failed to load testapicons.json');
 }
 let code = collection.scriptify({
-    // icons: ['account', 'account-alert', 'home', 'book-open'],
     pretty: true,
     optimize: true
 });
 
 let output = 'dist/testapicons.js';
+
+
 
 // Save code
 fs.writeFileSync(output, code, 'utf8');

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node convert-svg && node bundle"
+    "build": "node convert-svg && node bundle && node sheetcheat"
   },
   "repository": {
     "type": "git",
